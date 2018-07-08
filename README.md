@@ -35,6 +35,6 @@ In summary, training models with more balanced data could enhance performances o
 
 ![bank deposit roc_auc_score_summary](https://user-images.githubusercontent.com/35440469/42416281-787b1ad4-8238-11e8-9f6d-62b81ba2074c.png)​
 ### The files:
-	(1)Bank deposit--unbalanced-data.ipynb
+	(1)Bank deposit subscription--data-processing.ipynb
 	(2)Bank deposit--unbalanced-data.ipynb
 	(3)bank_deposit_balanced_data-1 to 1ratio.ipynb
