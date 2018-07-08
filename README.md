@@ -17,11 +17,16 @@ There are 30488 instances in the data set.  Customers didn't sign up term deposi
 	(4) neaural network MLPClassifier 
 
 #### Model training, selection and target prediction: 
-	(1) For each classification method, models were trainded with different parameter settings with the traiing data. 
-	(2) Roc_auc_scores of model predictions on cross-validation data were used to select the best model for each classification method.  
+	(1) For each classification method, models were trainded with different parameter settings with 
+	the traiing data. 
+	(2) Roc_auc_scores of model predictions on cross-validation data were used to select the best 
+	model for each classification method.  
 	(3) Roc_auc_scores of model predictions from selected models on test data were compared. 
-	(4) Both the balanced and original unbalanced data were used to train models. Prediction results from these models were compared.
-	The roc_auc_score is an objective measurement of classification models. So, I used it for model performance evaluation. More information is available from online resources (http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html) 
+	(4) Both the balanced and original unbalanced data were used to train models. Prediction results
+	from these models were compared.
+	The roc_auc_score is an objective measurement of classification models. So, I used it for model 
+	performance evaluation. More information is available from online resources: 
+	(http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html) 
 
 ## Conclusion: 
 The models, trained with the balanced data, performed better on the test data than the ones trained with unbalanced data (top 2 panels of the figure below). Since the test data trained with balanced data is not identical to the test data trained with unbalance data.  I also compared model auc scores with the entire data set. The conclusion remains the same. Overall, the best roc_auc_score on the test data is 0.878 (neural network with balanced training data). The best roc_auc_score on the entire data is 0.887 (random forest with balanced training data). 
