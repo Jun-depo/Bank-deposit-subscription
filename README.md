@@ -24,3 +24,5 @@ There are 30488 instances in the data set.  Customers didn't sign up term deposi
 
 ## Conclusion: 
 All models that trained with balanced data, performed better than the ones trained with unbalanced data.  
+
+![bank deposit roc_auc_score_summary](https://user-images.githubusercontent.com/35440469/42416281-787b1ad4-8238-11e8-9f6d-62b81ba2074c.png)​
