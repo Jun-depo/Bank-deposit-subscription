@@ -26,7 +26,8 @@ There are 30488 instances in the data set.  Customers didn't sign up term deposi
 	from these models were compared.
 	The roc_auc_score is an objective measurement of classification models. So, I used it for model 
 	performance evaluation. More information is available from online resources: 
-	(http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html) 
+	http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html 
+	https://en.wikipedia.org/wiki/Receiver_operating_characteristic
 
 ## Conclusion: 
 The models, trained with the balanced data, performed better on the test data than the ones trained with unbalanced data (top 2 panels of the figure below). Since the test data trained with balanced data is not identical to the test data trained with unbalance data.  I also compared model auc scores with the entire data set. The conclusion remains the same. Overall, the best roc_auc_score on the test data is 0.878 (neural network with balanced training data). The best roc_auc_score on the entire data is 0.887 (random forest with balanced training data). 
