@@ -32,8 +32,9 @@ There are 30488 instances in the data set.  Customers didn't sign up term deposi
 ## Conclusion: 
 The models, trained with the balanced data, performed better on the test data than the ones trained with unbalanced data (top 2 panels of the figure below). Since the test data trained with balanced data is not identical to the test data trained with unbalance data.  I also compared model auc scores on the entire data set (2 bottom panels). The conclusion remains the same. Overall, the best roc_auc_score on the test data is 0.878 (neural network trained with the balanced data). The best roc_auc_score on the entire data is 0.887 (random forest trained with the balanced data). 
 
-In summary, training models with more balanced data could enhance performances of classifiers.    
+Overall, all models trained with the balanced data outperformed the models trained with the original unbalanced data by (0.095-0.165 roc_auc scores) on test data, suggesting the usage of more balanced data truly enhanced the performance of all the models.
 
+The neural network and random forest model (trained with balanced data) have better roc_auc_scores than other models on the test data.
 ![bank deposit roc_auc_score_summary](https://user-images.githubusercontent.com/35440469/42416281-787b1ad4-8238-11e8-9f6d-62b81ba2074c.png)​
 ### The files:
 	(1)Bank deposit subscription--data-processing.ipynb
