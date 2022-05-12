@@ -51,7 +51,7 @@ Tick label such as *Random_forest_balanced_wt* indicated the model was traind us
 	
 ## Model Interpretation:
 
-I used permutation importance, partial dependence plot (PDP) and Shap values to analyze important features of Random forest model (see Bank-deposit-unbalanced-data-one-hot-encoder-RF-Wt_Balanced-feat-importance.ipynb).
+I used permutation importance, partial dependence plot (PDP) and Shap values to analyze important features of Random forest model (see RF-unbalanced-data-one-hot-encoder-Wt_Balanced-feat-importance.ipynb).
 
 #### Permutation importance
 Permutation importance measure importance of the feature/column by random permutation data among rows to analyze how much permutation affects model performance.  Features sensitive to prmutation gets higher weights (see ficture below). Duration and euribor3m appears to be the most importance features based on this analysis. 
