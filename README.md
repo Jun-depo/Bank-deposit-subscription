@@ -75,9 +75,11 @@ The undersampling and specifying class_weight='balanced' yielded similar results
     SHAP values measure a certain value for a given feature positively or negatively contribution to the prediction in comparison to the prediction one would make if that feature took some baseline value. It can be plotted with just a single row of the data or plot for all rows of data showing overall effects. 
 
 <img src="images/shap_val_row10.png" alt="drawing" width="1000" />​
+    
     The plot show which feature positively and negatively contributes to prediction for the single (10th) row of data.
 
 <img src="images/shap_val_test_data.png" alt="drawing" width="700" />​
+
     The plot summarizes overall contribution to preidction for each feature. As an example, low values of 'duration' (blue) negatively correlates prediction while high values of 'duration' (red) positively contribute to the prediction, suggesting increase of 'duration' is positively correlated to the prediction. That's consistent with PDP plot.
 
 
